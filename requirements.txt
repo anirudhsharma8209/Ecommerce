@@ -1,0 +1,16 @@
+Ecommerce application for office purpose :- 
+	Tables required 
+		1. User table 
+			Columns -> userid, username, email, password, address, status, role, backlist
+		2. Product category table]
+			Columns -> categoryid, categoryname, categorytotal, status, thumbnail
+		3. Products table
+			Columns -> productid, productname, productprice, categoryid, productcode, productimages, status, thumbnail, discount,brandid ,stock
+		4. Cart table	
+			Columns -> cartid, userid, productid, carttotal, 
+		5. Product brand
+			Columns -> brandid, brandname, status			
+		6. Order tables 
+			Columns -> orderid, userid, totalpayable, orderstatus, emailstatus
+		7. Order line items 
+			Columns -> lineitemid, orderid, productid, quantity, discount, tax, totalamount
